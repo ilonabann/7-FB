@@ -1,0 +1,11 @@
+.post {
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.post > header {
+display: grid;
+grid-template-columns: 50px 1fr 30px;
+gap: 15px;
+
+}
