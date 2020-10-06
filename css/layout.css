@@ -1,14 +1,14 @@
 body {
     display: grid;
-    grid-template-columns: 200px 1fr 240px;
-    grid-template-areas: 
-    "hed hed hed"
-    "menu feed msg";
+    grid-template-columns: 100px 1fr 140px;
+    grid-template-areas:
+        "hed hed hed"
+        "menu feed msg";
 }
 
 header {
     grid-area: hed;
-    background-color:  blue;
+    background-color: #36f;
 }
 
 aside {
@@ -17,11 +17,11 @@ aside {
 .menu {
     grid-area: menu;
 }
-
 .messenger {
     grid-area: msg;
 }
+
 main {
     grid-area: feed;
-   padding: 40px;
+    padding: 40px;
 }
